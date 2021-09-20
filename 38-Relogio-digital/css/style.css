@@ -1,0 +1,16 @@
+body {
+    margin: 50px;
+}
+
+#dv2 {
+    position: relative;
+}
+
+#rel {
+    text-align: center;
+    color: #0f0;
+    font-size: 30px;
+    font-weight: bold;
+    width: 130px;
+    background-color: #000;
+}
