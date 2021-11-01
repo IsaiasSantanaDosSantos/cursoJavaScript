@@ -1,0 +1,27 @@
+#dvslider {
+    position: relative;
+    width: 750px;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.bi-chevron-compact-right {
+    position: absolute;
+    font-size: 3em;
+    color: #fff;
+    top: 35%;
+    right: 10px;
+    cursor: pointer;
+}
+
+.bi-chevron-compact-left {
+    position: absolute;
+    font-size: 3em;
+    color: #fff;
+    top: 35%;
+    cursor: pointer;
+}
+
+.bi-chevron-compact-left:hover, .bi-chevron-compact-right:hover {
+    color: #f00;
+}

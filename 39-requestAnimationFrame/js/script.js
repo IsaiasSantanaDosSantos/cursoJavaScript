@@ -14,7 +14,7 @@ var estado;
 
 
 function inicia() {
-    vel = 2
+    vel = 7
     dx = 1 //Direita valor positivo e esquerda valores negativos
     dy = 0
     px = 0
