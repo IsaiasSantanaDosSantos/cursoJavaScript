@@ -1,0 +1,53 @@
+#dvslider {
+    position: relative;
+    width: 750px;
+    height: 300px;
+    border: 1px solid #000;
+    display: flex;  /* Mais facíl posicionar os elementos nele*/
+    justify-content: space-between; /* Distribuição dos elementos dentro da div pai*/
+    align-items: center; /*Centralizar itens*/
+}
+
+.bi-chevron-compact-right {
+    position: absolute;
+    font-size: 3em;
+    color: #fff;
+    top: 35%;
+    right: 10px;
+    cursor: pointer;
+}
+
+.bi-chevron-compact-left {
+    position: absolute;
+    font-size: 3em;
+    color: #fff;
+    top: 35%;
+    cursor: pointer;
+}
+
+.bi-chevron-compact-left:hover, .bi-chevron-compact-right:hover {
+    color: #f00;
+}
+
+.btSlider {
+    background-color: rgba(0, 0, 0, 0.4); /* Para cor transparente usar "rgba"*/
+    height: 30%;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+    border: none;
+}
+
+#dvload {
+    width: 100%;
+    height: 7px;
+    margin-top: 37%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#dvbarra {
+    width: 0%;
+    height: 100%;
+    background-color: #fff;
+}
